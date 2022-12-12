@@ -1,5 +1,5 @@
 # part 1 noop: resolved in Excel
-# part 2 noop: resolved Excel too
+# part 2 noop: resolved in Excel too
 
 # # # # . . # # . . # # # # . # . . # . # # # # . . # # . . # . . . . # # # .
 # . . . . # . . # . . . . # . # . . # . . . . # . # . . # . # . . . . # . . #
