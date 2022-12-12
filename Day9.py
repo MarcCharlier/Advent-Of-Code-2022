@@ -32,8 +32,8 @@ current_tail_square = [0, 0]
 new_tail_square = [0, 0]
 tail_squares_list.append(new_tail_square)
 for square_coordinate in head_squares_list:
-    print("head_square " + str(square_coordinate))
-    print("tail_square " + str(current_tail_square))
+    # print("head_square " + str(square_coordinate))
+    # print("tail_square " + str(current_tail_square))
     if abs(square_coordinate[0] - current_tail_square[0]) > 1 or abs(square_coordinate[1] - current_tail_square[1]) > 1:
         if square_coordinate[0] == current_tail_square[0]:
             new_tail_square = [current_tail_square[0], int((square_coordinate[1] + current_tail_square[1]) / 2)]
