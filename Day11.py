@@ -33,25 +33,25 @@ for counter in range(0, 10000):
     len_monkey_1_items += len(monkey_1_items)
     for monkey_item in monkey_1_items:
         if trunc((monkey_item + 6)) % 17 == 0:
-            monkey_3_items.append(trunc((monkey_item + 6)))
+            monkey_3_items.append(trunc(monkey_item + 6))
         else:
-            monkey_0_items.append(trunc((monkey_item + 6)))
+            monkey_0_items.append(trunc(monkey_item + 6))
         monkey_1_items = []
 
     len_monkey_2_items += len(monkey_2_items)
     for monkey_item in monkey_2_items:
         if trunc((monkey_item + 5)) % 2 == 0:
-            monkey_3_items.append(trunc((monkey_item + 5)))
+            monkey_3_items.append(trunc(monkey_item + 5))
         else:
-            monkey_1_items.append(trunc((monkey_item + 5)))
+            monkey_1_items.append(trunc(monkey_item + 5))
         monkey_2_items = []
 
     len_monkey_3_items += len(monkey_3_items)
     for monkey_item in monkey_3_items:
         if trunc((monkey_item + 2)) % 19 == 0:
-            monkey_7_items.append(trunc((monkey_item + 2)))
+            monkey_7_items.append(trunc(monkey_item + 2))
         else:
-            monkey_0_items.append(trunc((monkey_item + 2)))
+            monkey_0_items.append(trunc(monkey_item + 2))
         monkey_3_items = []
 
     len_monkey_4_items += len(monkey_4_items)
@@ -65,17 +65,17 @@ for counter in range(0, 10000):
     len_monkey_5_items += len(monkey_5_items)
     for monkey_item in monkey_5_items:
         if trunc((monkey_item + 7)) % 5 == 0:
-            monkey_2_items.append(trunc((monkey_item + 7)))
+            monkey_2_items.append(trunc(monkey_item + 7))
         else:
-            monkey_1_items.append(trunc((monkey_item + 7)))
+            monkey_1_items.append(trunc(monkey_item + 7))
         monkey_5_items = []
 
     len_monkey_6_items += len(monkey_6_items)
     for monkey_item in monkey_6_items:
         if trunc((monkey_item + 1)) % 13 == 0:
-            monkey_5_items.append(trunc((monkey_item + 1)))
+            monkey_5_items.append(trunc(monkey_item + 1))
         else:
-            monkey_2_items.append(trunc((monkey_item + 1)))
+            monkey_2_items.append(trunc(monkey_item + 1))
         monkey_6_items = []
 
     len_monkey_7_items += len(monkey_7_items)
